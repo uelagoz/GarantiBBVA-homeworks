@@ -5,7 +5,7 @@ public class Main {
         PhoneApp phoneApp = new PhoneApp();
         double result = phoneApp.calculateTotalPrice(phoneApp.smartPhones);
 
-        System.out.println(result);
+        System.out.println("Toplam fiyat: " + result);
 
     }
 }
