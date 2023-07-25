@@ -10,6 +10,7 @@ public class DeviceService {
     int input;
     Device device;
 
+    //Cihaz seçimi fonksiyonu tanımlandı. Seçime göre Divice türündeki nesneler oluşturuldu.
     public void choosingDevice() {
         System.out.println("Cihaz Seçiniz \n 1-Computer \n 2-Playstation \n 3-Xbox");
         int input = scanner.nextInt();
@@ -27,10 +28,10 @@ public class DeviceService {
             break;
         } else {
             System.out.println("Hatalı giriş yaptınız.");
-
         }
     }
 
+    //Kullanıcıdan alınan inputa göre önceden seçmiş olduğu Device açılır veya kapanır.
     public void startDevice() {
         while (true) {
             System.out.println("1-Cihazı Aç \n2-Cihazı Kapat");
@@ -47,6 +48,7 @@ public class DeviceService {
         }
     }
 
+    //Kullanıcı seçtiği Device'ta kullanmak üzere bir Controller seçer.
     public void choosingController() {
         while(true){
             System.out.println("Controller seçiniz: \n1-Playstation Controller \n2-Xbox Controller");
@@ -63,6 +65,7 @@ public class DeviceService {
         }
     }
 
+    //Oyun başlatılır.
     public void playGame(){
         device.playGame();
     }
