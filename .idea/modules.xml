@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/GameControllerImplementation/GameControllerImplementation.iml" filepath="$PROJECT_DIR$/GameControllerImplementation/GameControllerImplementation.iml" />
       <module fileurl="file://$PROJECT_DIR$/GarantiBBVA-homeworks.iml" filepath="$PROJECT_DIR$/GarantiBBVA-homeworks.iml" />
-      <module fileurl="file://$PROJECT_DIR$/SmartPhone/SmartPhone.iml" filepath="$PROJECT_DIR$/SmartPhone/SmartPhone.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SmartPhoneShop/SmartPhoneShop.iml" filepath="$PROJECT_DIR$/SmartPhoneShop/SmartPhoneShop.iml" />
     </modules>
   </component>
 </project>
