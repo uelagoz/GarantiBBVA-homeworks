@@ -11,9 +11,10 @@ public class Computer extends Device {
 
     //Computer için iki controller da uygun olduğundan GameController interface'ini implemente etmiş herhangi bir controller alabiliyor.
     @Override
-    public void addController(GameController gameController) {
+    public boolean addController(GameController gameController) {
         this.gameController = gameController;
         System.out.println("Controller başarıyla bağlandı.");
+        return true;
     }
 
 }

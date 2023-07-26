@@ -9,7 +9,7 @@ public abstract class Device {
     String deviceName;
     boolean isOpen = false; //Device'ın açık olup olmama durumunu tutar.
 
-    public abstract void addController(GameController gameController);
+    public abstract boolean addController(GameController gameController);
 
     //Oyunu başlatma fonksiyonu burada tanımlandı. Device'ın açık olup olmadığı kontrol edildi.
     public void playGame(){
