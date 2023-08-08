@@ -1,0 +1,1 @@
+SELECT "League"."name" FROM "League" INNER JOIN "Country" ON "League"."id_country" = "Country"."id" WHERE "Country"."name" = 'Türkiye'
