@@ -7,7 +7,7 @@ import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
-@Repository //Gerekli CRUD işlemlerini gerçekleştirebilmek için JpaRepositery extend edildi.
+@Repository //Gerekli CRUD işlemlerini gerçekleştirebilmek için JpaRepository extend edildi.
 public interface AccountRepository extends JpaRepository<Account, Long> {
     List<Account> findByCustomerId(Long identityNo);
 
